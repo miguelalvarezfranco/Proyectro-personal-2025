@@ -8,7 +8,7 @@
 */
 
 
-import { useEffect, useState } from "react"
+/*import { useEffect, useState } from "react"
 import { getProducts } from "./app/services/products.servicio"
 import { ProductCard } from "./app/ui/components/ProductCard"
 
@@ -40,6 +40,20 @@ const App = () => {
 }
 
 
+
+export default App;*/
+
+
+import React from "react";
+import Login from './app/ui/components/login'; // Ruta correcta del componente
+
+function App() {
+  return (
+    <div className="App">
+      <Login /> {/* Renderiza el componente Login */}
+    </div>
+  );
+}
 
 export default App;
 
